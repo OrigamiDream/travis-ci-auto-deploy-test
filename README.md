@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/OrigamiDream/travis-ci-auto-deploy-test.svg?branch=master)](https://travis-ci.org/OrigamiDream/travis-ci-auto-deploy-test)
