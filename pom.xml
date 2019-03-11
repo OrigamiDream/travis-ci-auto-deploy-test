@@ -6,7 +6,7 @@
 
     <groupId>kr.origami.test</groupId>
     <artifactId>travis-ci-auto-deploy-test</artifactId>
-    <version>1.8-SNAPSHOT</version>
+    <version>1.9-SNAPSHOT</version>
 
     <build>
         <plugins>
