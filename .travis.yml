@@ -4,4 +4,6 @@ deploy:
     secure: tKFiOwODMr/NizeJPyPc73U1oVPNFCUsHu+a8Ifd+Ja5ewPtcmeIUnduBf8xJXptpIT9WAF0g2CLYyiS2lCzYDzgLqaOw/EYG6H3H3fLFBvfs0mfXqzGhTIBVQUYPZlPWnmaF64S7wJfwqrxyyEgtbFj98fi7G+ZBvUnLeDmZk2ZSkryDzy4CqWQM1GJ5x0ROx4Mqvl02wy//xzYqjSj3dMLVYAp2qvsATRsIosnG+MCj34SPm4ex7yuT0Vb2C+S33oAvfK9l4GFr27Sd5KkvoIHqq7WbN0420/nwpKWbuG4jPul24tLWE3MaqJo0GeVjppg3jz/DBmnnzUMdFKUWOe2dA/hEIhtmzXN2dqNBBHA+YRc2tKxPxPM05bYBTj6KTxoS96+VQ4gDPxdF/A+ENYGYGRFkmHkP3QqfLGF15AcyKQ+hIwW09j+HaVJ1+y8k8PEq0lN2hIfeKzq0aoCIZqZV+geIM7hrClMuvnSI2sh+1wCKTcA+3478vV3/BOMmga/uMchsWmbStn7yv0ACJnofumiFFCAi2WkuvxRzInQCZKyhq5PYbrwRbCf+uOmzDu08iBOLZWMx1IsvXypigLELP/yAtDCVqj8cEQhUSKcWT/XXXJrlsA2BtJ0dly+I0iDNnzaLD4lcihGwEg/xrp44I6oQy3TCIZbub8lpgo=
   file: "target/travis-ci-auto-deploy-test-1.0-SNAPSHOT.jar"
   on:
+    tags: true
+    all_branches: true
     repo: OrigamiDream/travis-ci-auto-deploy-test
